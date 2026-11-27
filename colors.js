@@ -1,23 +1,14 @@
-/*
-  ARQUIVO: colors.js
-
-  OBJETIVO:
-  Centralizar todas as cores do aplicativo.
-
-  Assim, podemos mudar a identidade visual
-  sem precisar procurar as cores em vários arquivos.
-*/
-
 export const colors = {
-  // CORES PRINCIPAIS DO APLICATIVO
-  primary: "#2563EB",
+  // CORES PRINCIPAIS
+  primary: "#EA580C",
   success: "#16A34A",
   danger: "#DC2626",
+  warning: "#F59E0B",
   purple: "#7C3AED",
   secondary: "#64748B",
   progress: "#22A447",
 
-  // PALETA DO TEMA CLARO
+  // TEMA CLARO
   light: {
     background: "#F1F5F9",
     surface: "#FFFFFF",
@@ -30,7 +21,7 @@ export const colors = {
     progressTrack: "#E2E8F0",
   },
 
-  // PALETA DO TEMA ESCURO
+  // TEMA ESCURO
   dark: {
     background: "#0F172A",
     surface: "#1E293B",
@@ -41,5 +32,18 @@ export const colors = {
     visor: "#334155",
     number: "#FFFFFF",
     progressTrack: "#475569",
+  },
+
+  // TEMA ROXO
+  purpleTheme: {
+    background: "#1E1B4B",
+    surface: "#312E81",
+    text: "#F5F3FF",
+    subtitle: "#DDD6FE",
+    inputBackground: "#1E1B4B",
+    border: "#7C3AED",
+    visor: "#4C1D95",
+    number: "#FFFFFF",
+    progressTrack: "#6D28D9",
   },
 };
